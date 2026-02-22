@@ -1,0 +1,8684 @@
+[
+  {
+    "name": "Granite",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diorite",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Nether Quartz",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Polished Granite",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Granite",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Diorite",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Nether Quartz",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Polished Diorite",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Diorite",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Andesite",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Diorite",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Polished Andesite",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Andesite",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Polished Deepslate",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Cobbled Deepslate",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Dripstone Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Pointed Dripstone",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Coarse Dirt",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Dirt",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Oak Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Oak Log",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Spruce Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Spruce Log",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Birch Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Birch Log",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Jungle Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Jungle Log",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Acacia Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Acacia Log",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cherry Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Cherry Log",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Dark Oak Log",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Mangrove Log",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Planks",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Block of Bamboo",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Crimson Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Crimson Stem",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Warped Planks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Warped Stem",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Mosaic",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Bamboo Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Block of Coal",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Coal",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Block of Raw Iron",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Raw Iron",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Block of Raw Copper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Raw Copper",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Block of Raw Gold",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Raw Gold",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Block of Amethyst",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Amethyst Shard",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Block of Iron",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Block of Copper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Copper Ingot",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Block of Gold",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Block of Diamond",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Block of Netherite",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Netherite Ingot",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Cut Copper",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Block of Copper",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Exposed Cut Copper",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Exposed Copper",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Weathered Cut Copper",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Weathered Copper",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Oxidized Cut Copper",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Oxidized Copper",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Cut Copper Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Cut Copper",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Exposed Cut Copper Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Exposed Cut Copper",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Weathered Cut Copper Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Weathered Cut Copper",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Oxidized Cut Copper Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Oxidized Cut Copper",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Cut Copper Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Cut Copper",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Exposed Cut Copper Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Exposed Cut Copper",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Weathered Cut Copper Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Weathered Cut Copper",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Oxidized Cut Copper Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Oxidized Cut Copper",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Waxed Block of Copper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Block of Copper",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Honeycomb",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Waxed Exposed Copper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Exposed Copper",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Honeycomb",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Waxed Weathered Copper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Weathered Copper",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Honeycomb",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Waxed Oxidized Copper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oxidized Copper",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Honeycomb",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Waxed Cut Copper",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Waxed Block of Copper",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Waxed Exposed Cut Copper",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Waxed Exposed Copper",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Waxed Weathered Cut Copper",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Waxed Weathered Copper",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Waxed Oxidized Cut Copper",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Waxed Oxidized Copper",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Waxed Cut Copper Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Waxed Cut Copper",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Waxed Exposed Cut Copper Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Waxed Exposed Cut Copper",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Waxed Weathered Cut Copper Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Waxed Weathered Cut Copper",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Waxed Oxidized Cut Copper Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Waxed Oxidized Cut Copper",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Waxed Cut Copper Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Waxed Cut Copper",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Waxed Exposed Cut Copper Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Waxed Exposed Cut Copper",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Waxed Weathered Cut Copper Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Waxed Weathered Cut Copper",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Waxed Oxidized Cut Copper Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Waxed Oxidized Cut Copper",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Muddy Mangrove Roots",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Mud",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Mangrove Roots",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Block of Bamboo",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Bamboo",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Stripped Oak Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Oak Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Spruce Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Spruce Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Birch Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Birch Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Jungle Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Jungle Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Acacia Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Acacia Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Cherry Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Cherry Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Dark Oak Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Dark Oak Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Mangrove Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Mangrove Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Crimson Hyphae",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Crimson Stem",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stripped Warped Hyphae",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stripped Warped Stem",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Oak Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Oak Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Spruce Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Spruce Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Birch Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Birch Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Jungle Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Jungle Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Acacia Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Acacia Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Cherry Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Cherry Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Dark Oak Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Wood",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Mangrove Log",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Crimson Hyphae",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Crimson Stem",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Warped Hyphae",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Warped Stem",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Tinted Glass",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Amethyst Shard",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Glass",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Block of Lapis Lazuli",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Lapis Lazuli",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Sandstone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Chiseled Sandstone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Sandstone Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Cut Sandstone",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Sandstone",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "White Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Orange Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Orange Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magenta Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Magenta Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Light Blue Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Yellow Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lime Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Lime Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pink Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Pink Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gray Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gray Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Light Gray Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cyan Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cyan Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Purple Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Purple Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Blue Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Brown Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Brown Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Red Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Wool",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Black Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Blue Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Moss Carpet",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Moss Block",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Oak Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Spruce Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Birch Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Jungle Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Acacia Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cherry Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Mosaic Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Bamboo Mosaic",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Crimson Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Warped Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Stone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Stone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Smooth Stone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Smooth Stone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Sandstone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Sandstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cut Sandstone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Cut Sandstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cobblestone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Stone Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Stone Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Mud Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Mud Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Nether Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Nether Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Quartz Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chiseled Quartz Block",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Red Sandstone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Red Sandstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cut Red Sandstone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Cut Red Sandstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Purpur Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Purpur Block",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Prismarine Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Prismarine",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Prismarine Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Prismarine Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Dark Prismarine Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Dark Prismarine",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Bricks",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Brick",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Bookshelf",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Book",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Chiseled Bookshelf",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Oak Slab",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Decorated Pot",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Brick",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Mossy Cobblestone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Moss Block",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Torch",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Coal",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "End Rod",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Blaze Rod",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Popped Chorus Fruit",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Purpur Block",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Popped Chorus Fruit",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Purpur Pillar",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Purpur Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Purpur Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Purpur Block",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 8
+      }
+    ]
+  },
+  {
+    "name": "Crafting Table",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Furnace",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 8
+      }
+    ]
+  },
+  {
+    "name": "Ladder",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Cobblestone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Snow",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Snow Block",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Snow Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Snowball",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Clay",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Clay Ball",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Jukebox",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Diamond",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Oak Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Spruce Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Birch Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Jungle Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Acacia Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Cherry Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Crimson Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Warped Fence",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Jack o'Lantern",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Carved Pumpkin",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Torch",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Polished Basalt",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Basalt",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Soul Torch",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Coal",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Soul Sand",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Glowstone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Glowstone Dust",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stone Bricks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Stone",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Mossy Stone Bricks",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stone Bricks",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Moss Block",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Chiseled Stone Bricks",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stone Brick Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Packed Mud",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Mud",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Wheat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Mud Bricks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Packed Mud",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Deepslate Bricks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Polished Deepslate",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Deepslate Tiles",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Deepslate Bricks",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Chiseled Deepslate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobbled Deepslate Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Iron Bars",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Chain",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Nugget",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Melon",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Melon Slice",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Stone Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Stone Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mud Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Mud Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Nether Bricks",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Nether Brick",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Chiseled Nether Bricks",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Nether Brick Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Nether Brick Fence",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Nether Bricks",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Nether Brick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Nether Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Nether Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Enchanting Table",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Book",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Diamond",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Obsidian",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "End Stone Bricks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "End Stone",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Sandstone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Sandstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Ender Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Obsidian",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Eye of Ender",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Block of Emerald",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Emerald",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Oak Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Spruce Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Birch Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Jungle Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Acacia Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Cherry Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Mosaic Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Bamboo Mosaic",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Crimson Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Warped Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Beacon",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 5
+      },
+      {
+        "name": "Nether Star",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Obsidian",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cobblestone Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mossy Cobblestone Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Mossy Cobblestone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Prismarine Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Prismarine",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Red Sandstone Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Red Sandstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mossy Stone Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Mossy Stone Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Granite Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Granite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Stone Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Stone Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mud Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Mud Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Nether Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Nether Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Andesite Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Andesite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Red Nether Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Red Nether Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Sandstone Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Sandstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "End Stone Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "End Stone Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Diorite Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Diorite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Blackstone Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Blackstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Cobbled Deepslate Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Cobbled Deepslate",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Polished Deepslate Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Deepslate",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Deepslate Brick Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Deepslate Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Deepslate Tile Wall",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Deepslate Tiles",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Anvil",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Block of Iron",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Chiseled Quartz Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Quartz Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Block of Quartz",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Nether Quartz",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Quartz Bricks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Block of Quartz",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Quartz Pillar",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Block of Quartz",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Quartz Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Chiseled Quartz Block",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "White Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Orange Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Orange Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magenta Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Magenta Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Light Blue Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Yellow Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lime Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Lime Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pink Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Pink Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gray Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Gray Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Light Gray Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cyan Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Cyan Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Purple Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Purple Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Blue Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Brown Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Brown Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Red Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Terracotta",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Terracotta",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Black Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Hay Bale",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Wheat",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "White Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Orange Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Orange Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magenta Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Magenta Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Light Blue Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Yellow Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lime Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Lime Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pink Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Pink Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gray Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gray Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Light Gray Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cyan Carpet",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Cyan Wool",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Purple Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Purple Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Carpet",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Blue Wool",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Brown Carpet",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Brown Wool",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Green Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Carpet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Red Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Carpet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Carpet",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Black Wool",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Packed Ice",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Ice",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "White Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Orange Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Orange Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magenta Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Magenta Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Light Blue Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Yellow Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lime Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Lime Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pink Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Pink Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gray Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Gray Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Light Gray Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cyan Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Cyan Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Purple Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Purple Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Blue Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Brown Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Brown Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Red Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Stained Glass",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Black Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "White Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "White Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Orange Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Orange Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Magenta Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Magenta Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Light Blue Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Yellow Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Yellow Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Lime Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Lime Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Pink Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Pink Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Gray Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Gray Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Light Gray Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Cyan Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Cyan Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Purple Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Purple Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Blue Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Blue Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Brown Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Brown Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Green Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Green Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Red Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Red Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Black Stained Glass Pane",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Black Stained Glass",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Prismarine",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Prismarine Shard",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Prismarine Bricks",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Prismarine Shard",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Dark Prismarine",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Prismarine Shard",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Black Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Prismarine Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Prismarine",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Prismarine Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Prismarine Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Dark Prismarine Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Dark Prismarine",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Sea Lantern",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Prismarine Shard",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Prismarine Crystals",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Red Sandstone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Red Sand",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Chiseled Red Sandstone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Red Sandstone Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Cut Red Sandstone",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Red Sandstone",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Red Sandstone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Red Sandstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Magma Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Magma Cream",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Nether Wart Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Nether Wart",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Red Nether Bricks",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Nether Brick",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Nether Wart",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Bone Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Bone Meal",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Shulker Box",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Shulker Shell",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "White Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Orange Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Orange Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Magenta Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Magenta Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Light Blue Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Yellow Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Yellow Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Lime Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Lime Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Pink Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Pink Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Gray Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Gray Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Light Gray Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Cyan Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Cyan Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Purple Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Purple Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Blue Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Blue Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Brown Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Brown Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Green Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Red Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Red Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Black Concrete Powder",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Black Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gravel",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Blue Ice",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Packed Ice",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Conduit",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Nautilus Shell",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Heart of the Sea",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Polished Granite Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Polished Granite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Smooth Red Sandstone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Smooth Red Sandstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mossy Stone Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Mossy Stone Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Polished Diorite Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Polished Diorite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mossy Cobblestone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Mossy Cobblestone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "End Stone Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "End Stone Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Stone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Stone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Smooth Sandstone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Smooth Sandstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Smooth Quartz Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Smooth Quartz Block",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Granite Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Granite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Andesite Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Andesite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Red Nether Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Red Nether Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Polished Andesite Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Polished Andesite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Diorite Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Diorite",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Cobbled Deepslate Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Cobbled Deepslate",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Polished Deepslate Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Polished Deepslate",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Deepslate Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Deepslate Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Deepslate Tile Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Deepslate Tiles",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Polished Granite Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Granite",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Smooth Red Sandstone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Smooth Red Sandstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Mossy Stone Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Mossy Stone Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Polished Diorite Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Diorite",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Mossy Cobblestone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Mossy Cobblestone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "End Stone Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "End Stone Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Smooth Sandstone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Smooth Sandstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Smooth Quartz Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Smooth Quartz Block",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Granite Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Granite",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Andesite Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Andesite",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Red Nether Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Red Nether Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Polished Andesite Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Andesite",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Diorite Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Diorite",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cobbled Deepslate Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Cobbled Deepslate",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Polished Deepslate Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Deepslate",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Deepslate Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Deepslate Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Deepslate Tile Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Deepslate Tiles",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Scaffolding",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Bamboo",
+        "quantityRequired": 6
+      },
+      {
+        "name": "String",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Redstone Dust",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Redstone",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Redstone Torch",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Block of Redstone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Redstone Repeater",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Redstone Torch",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Redstone Comparator",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Redstone Torch",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Nether Quartz",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Piston",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Sticky Piston",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Slimeball",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Piston",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Slime Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Slimeball",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Honey Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Honey Bottle",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Observer",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Nether Quartz",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Hopper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 5
+      },
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Dispenser",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 7
+      },
+      {
+        "name": "Bow",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Dropper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 7
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lectern",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Slab",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Bookshelf",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Target",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Hay Bale",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lever",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lightning Rod",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Copper Ingot",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Daylight Detector",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Nether Quartz",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Oak Slab",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Calibrated Sculk Sensor",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Amethyst Shard",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Sculk Sensor",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Tripwire Hook",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Trapped Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Tripwire Hook",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "TNT",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gunpowder",
+        "quantityRequired": 5
+      },
+      {
+        "name": "Sand",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Redstone Lamp",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Glowstone",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Note Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Stone Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stone",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Oak Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Spruce Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Birch Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Jungle Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Acacia Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cherry Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Crimson Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Warped Button",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Stone Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stone",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Light Weighted Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Heavy Weighted Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Oak Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Spruce Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Birch Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Jungle Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Acacia Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Cherry Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Crimson Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Warped Pressure Plate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Iron Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Oak Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Spruce Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Birch Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Jungle Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Acacia Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Cherry Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Crimson Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Warped Door",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Iron Trapdoor",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Oak Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Spruce Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Birch Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Jungle Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Acacia Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Cherry Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Crimson Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Warped Trapdoor",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Oak Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Spruce Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Birch Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Jungle Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Acacia Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Cherry Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Crimson Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Warped Fence Gate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Powered Rail",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Detector Rail",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stone Pressure Plate",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Rail",
+    "resultCount": 16,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Activator Rail",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Redstone Torch",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Minecart",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Minecart with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Minecart",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Minecart with Furnace",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Furnace",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Minecart",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Minecart with TNT",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "TNT",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Minecart",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Minecart with Hopper",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Hopper",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Minecart",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Carrot on a Stick",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Fishing Rod",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Carrot",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Warped Fungus on a Stick",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Fishing Rod",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Warped Fungus",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Oak Boat",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Oak Boat with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Oak Boat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Spruce Boat",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Spruce Boat with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Spruce Boat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Birch Boat",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Birch Boat with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Birch Boat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Jungle Boat",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Jungle Boat with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Jungle Boat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Acacia Boat",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Acacia Boat with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Acacia Boat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cherry Boat",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Cherry Boat with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Cherry Boat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Boat",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Boat with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Dark Oak Boat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Boat",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Boat with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Mangrove Boat",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Raft",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Raft with Chest",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chest",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Bamboo Raft",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Turtle Shell",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Scute",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Flint and Steel",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Flint",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Bow",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 3
+      },
+      {
+        "name": "String",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Arrow",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Flint",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Feather",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Coal",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Coal",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Diamond",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Diamond",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Emerald",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Emerald",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lapis Lazuli",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Lapis Lazuli",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Raw Iron",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Raw Iron",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Iron Ingot",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Iron",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Raw Copper",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Raw Copper",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Copper Ingot",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Copper",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Raw Gold",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Raw Gold",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gold Ingot",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Block of Gold",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Netherite Ingot",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Netherite Scrap",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Wooden Sword",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Wooden Shovel",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Wooden Pickaxe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Wooden Axe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Wooden Hoe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Stone Sword",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Stone Shovel",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Stone Pickaxe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Stone Axe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Stone Hoe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Golden Sword",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Golden Shovel",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Golden Pickaxe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Golden Axe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Golden Hoe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Iron Sword",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Iron Shovel",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Iron Pickaxe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Iron Axe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Iron Hoe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Diamond Sword",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Diamond Shovel",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Diamond Pickaxe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Diamond Axe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Diamond Hoe",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Stick",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Bowl",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Mushroom Stew",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Brown Mushroom",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Red Mushroom",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Bowl",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Wheat",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Hay Bale",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Bread",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Wheat",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Leather Cap",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Leather",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Leather Tunic",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Leather",
+        "quantityRequired": 8
+      }
+    ]
+  },
+  {
+    "name": "Leather Pants",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Leather",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Leather Boots",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Leather",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Iron Helmet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Iron Chestplate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 8
+      }
+    ]
+  },
+  {
+    "name": "Iron Leggings",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Iron Boots",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Diamond Helmet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Diamond Chestplate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 8
+      }
+    ]
+  },
+  {
+    "name": "Diamond Leggings",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Diamond Boots",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Golden Helmet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Golden Chestplate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 8
+      }
+    ]
+  },
+  {
+    "name": "Golden Leggings",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Golden Boots",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Painting",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 8
+      },
+      {
+        "name": "White Wool",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Golden Apple",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Apple",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Oak Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Spruce Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Spruce Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Birch Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Birch Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Jungle Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Jungle Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Acacia Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Acacia Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cherry Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Cherry Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Dark Oak Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Mangrove Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Bamboo Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Crimson Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Crimson Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Warped Sign",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Warped Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Oak Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Oak Log",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Spruce Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Spruce Log",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Birch Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Birch Log",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Jungle Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Jungle Log",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Acacia Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Acacia Log",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Cherry Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Cherry Log",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Dark Oak Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Dark Oak Log",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Mangrove Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Mangrove Log",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Bamboo Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Block of Stripped Bamboo",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Crimson Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Crimson Stem",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Warped Hanging Sign",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Chain",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stripped Warped Stem",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Bucket",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Leather",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Rabbit Hide",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Dried Kelp Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Dried Kelp",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Paper",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Sugar Cane",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Book",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Paper",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Leather",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Slimeball",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Slime Block",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Compass",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Recovery Compass",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Echo Shard",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Compass",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Fishing Rod",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 3
+      },
+      {
+        "name": "String",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Clock",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Redstone Dust",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Spyglass",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Amethyst Shard",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Copper Ingot",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "White Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Bone Meal",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Orange Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Orange Tulip",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magenta Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Allium",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Blue Orchid",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Dandelion",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lime Dye",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pink Dye",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Peony",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gray Dye",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Black Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Azure Bluet",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cyan Dye",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Blue Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Purple Dye",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Blue Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Red Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Lapis Lazuli",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Brown Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cocoa Beans",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Beetroot",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Dye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Ink Sac",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Bone Meal",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Bone",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Sugar",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Honey Bottle",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cake",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Milk Bucket",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Sugar",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Egg",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Wheat",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "White Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Orange Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Orange Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magenta Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Magenta Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Light Blue Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Yellow Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lime Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Lime Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pink Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Pink Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gray Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gray Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Light Gray Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cyan Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cyan Wool",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Purple Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Purple Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Blue Wool",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Brown Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Brown Wool",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Green Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Red Dye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Bed",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Bed",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Black Wool",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cookie",
+    "resultCount": 8,
+    "dependencies": [
+      {
+        "name": "Wheat",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Cocoa Beans",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Shears",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Dried Kelp",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Dried Kelp Block",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pumpkin Seeds",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Pumpkin",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Melon Seeds",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Melon Slice",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gold Nugget",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Gold Ingot",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Glass Bottle",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Fermented Spider Eye",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Spider Eye",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Brown Mushroom",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sugar",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blaze Powder",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Blaze Rod",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magma Cream",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Blaze Powder",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Slimeball",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Brewing Stand",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Blaze Rod",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Cobblestone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cauldron",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Eye of Ender",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Ender Pearl",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Blaze Powder",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Glistering Melon Slice",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Nugget",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Melon Slice",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Fire Charge",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Gunpowder",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Blaze Powder",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Coal",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Book and Quill",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Book",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Ink Sac",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Feather",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Item Frame",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Leather",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Glow Item Frame",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Item Frame",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Glow Ink Sac",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Flower Pot",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Brick",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Empty Map",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Paper",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Compass",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Golden Carrot",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gold Nugget",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Carrot",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pumpkin Pie",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Pumpkin",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Sugar",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Egg",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Firework Rocket",
+    "resultCount": 3,
+    "dependencies": [
+      {
+        "name": "Gunpowder",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Paper",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Rabbit Stew",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Baked Potato",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Cooked Rabbit",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Bowl",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Carrot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Brown Mushroom",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Armor Stand",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Smooth Stone Slab",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Leather Horse Armor",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Leather",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Lead",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "String",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Slimeball",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "White Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "White Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Orange Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Orange Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magenta Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Magenta Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Light Blue Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Yellow Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lime Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Lime Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pink Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Pink Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gray Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Gray Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Light Gray Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cyan Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Cyan Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Purple Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Purple Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Blue Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Brown Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Brown Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Green Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Red Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Banner",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Black Wool",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "End Crystal",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Glass",
+        "quantityRequired": 7
+      },
+      {
+        "name": "Eye of Ender",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Ghast Tear",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Beetroot Soup",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Bowl",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Beetroot",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Spectral Arrow",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Glowstone Dust",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Arrow",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Shield",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Iron Nugget",
+    "resultCount": 9,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Music Disc",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Disc Fragment",
+        "quantityRequired": 9
+      }
+    ]
+  },
+  {
+    "name": "Crossbow",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "String",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Tripwire Hook",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Loom",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "String",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Banner Pattern",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Paper",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Oxeye Daisy",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Composter",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Slab",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Barrel",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Oak Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Smoker",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Dark Oak Log",
+        "quantityRequired": 4
+      },
+      {
+        "name": "Furnace",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blast Furnace",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 5
+      },
+      {
+        "name": "Furnace",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Smooth Stone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Cartography Table",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Paper",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Fletching Table",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Flint",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Grindstone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Stone Slab",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Smithing Table",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Stonecutter",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Lantern",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Nugget",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Torch",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Soul Lantern",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Iron Nugget",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Soul Torch",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Campfire",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Coal",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Dark Oak Log",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Soul Campfire",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Soul Sand",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Dark Oak Log",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Beehive",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Oak Planks",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Honeycomb",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Honey Bottle",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Honey Block",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Glass Bottle",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Honeycomb Block",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Honeycomb",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Lodestone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Chiseled Stone Bricks",
+        "quantityRequired": 8
+      },
+      {
+        "name": "Netherite Ingot",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blackstone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Blackstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Blackstone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Blackstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Blackstone",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Chiseled Polished Blackstone",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone Slab",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Bricks",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Brick Slab",
+    "resultCount": 6,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone Bricks",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Polished Blackstone Brick Stairs",
+    "resultCount": 4,
+    "dependencies": [
+      {
+        "name": "Polished Blackstone Bricks",
+        "quantityRequired": 6
+      }
+    ]
+  },
+  {
+    "name": "Respawn Anchor",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Crying Obsidian",
+        "quantityRequired": 6
+      },
+      {
+        "name": "Glowstone",
+        "quantityRequired": 3
+      }
+    ]
+  },
+  {
+    "name": "Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "String",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Honeycomb",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "White Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "White Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Orange Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Orange Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Magenta Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Magenta Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Blue Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Light Blue Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Yellow Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Lime Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Lime Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Pink Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Pink Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Gray Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Gray Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Light Gray Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Light Gray Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Cyan Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Cyan Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Purple Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Purple Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Blue Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Brown Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Brown Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Green Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Red Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Candle",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Candle",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Black Dye",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Brush",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Feather",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Copper Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Stick",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Smithing Template",
+    "resultCount": 2,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 7
+      },
+      {
+        "name": "Smithing Template",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Netherrack",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Diamond Chestplate",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 8
+      }
+    ]
+  },
+  {
+    "name": "Diamond Boots",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 4
+      }
+    ]
+  },
+  {
+    "name": "Diamond Leggings",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 7
+      }
+    ]
+  },
+  {
+    "name": "Diamond Helmet",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Diamond",
+        "quantityRequired": 5
+      }
+    ]
+  },
+  {
+    "name": "Spear",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Stick",
+        "quantityRequired": 2
+      },
+      {
+        "name": "Iron Ingot",
+        "quantityRequired": 1
+      },
+      {
+        "name": "String",
+        "quantityRequired": 1
+      }
+    ]
+  },
+  {
+    "name": "Trident",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Prismarine Shard",
+        "quantityRequired": 3
+      },
+      {
+        "name": "Prismarine Crystals",
+        "quantityRequired": 2
+      }
+    ]
+  },
+  {
+    "name": "Mace",
+    "resultCount": 1,
+    "dependencies": [
+      {
+        "name": "Heavy Core",
+        "quantityRequired": 1
+      },
+      {
+        "name": "Breeze Rod",
+        "quantityRequired": 1
+      }
+    ]
+  }
+]

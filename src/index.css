@@ -1,0 +1,417 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* CraftChain Design System */
+    --background: 240 14% 2%;
+    --foreground: 212 33% 93%;
+
+    --card: 215 24% 7%;
+    --card-foreground: 212 33% 93%;
+
+    --popover: 215 19% 11%;
+    --popover-foreground: 212 33% 93%;
+
+    --primary: 134 63% 52%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 215 19% 11%;
+    --secondary-foreground: 212 33% 93%;
+
+    --muted: 215 14% 15%;
+    --muted-foreground: 215 10% 37%;
+
+    --accent: 215 19% 11%;
+    --accent-foreground: 212 33% 93%;
+
+    --destructive: 2 93% 62%;
+    --destructive-foreground: 212 33% 93%;
+
+    --border: 215 10% 27%;
+    --input: 215 12% 20%;
+    --ring: 213 93% 67%;
+
+    --radius: 0.75rem;
+
+    /* CraftChain custom tokens */
+    --bg-void: 240 14% 2%;
+    --bg-base: 215 24% 7%;
+    --bg-elevated: 215 19% 11%;
+    --bg-panel: 215 16% 13%;
+    --bg-sidebar: 215 24% 7%;
+    --bg-input: 215 12% 15%;
+    --bg-hover: 215 10% 22%;
+
+    --craft-green: 134 63% 52%;
+    --craft-green-dim: 141 63% 26%;
+    --craft-blue: 213 100% 67%;
+    --craft-blue-dim: 216 47% 23%;
+    --craft-purple: 261 100% 77%;
+    --craft-purple-dim: 263 63% 27%;
+    --craft-yellow: 42 73% 57%;
+    --craft-yellow-dim: 42 100% 18%;
+    --craft-red: 2 93% 62%;
+    --craft-red-dim: 0 53% 23%;
+    --craft-orange: 37 72% 49%;
+    --craft-orange-dim: 30 100% 15%;
+
+    --text-primary: 212 33% 93%;
+    --text-secondary: 215 10% 56%;
+    --text-muted: 215 10% 31%;
+
+    --border-default: 215 10% 27%;
+    --border-muted: 215 12% 15%;
+    --border-active: 213 100% 67%;
+    --border-success: 134 63% 52%;
+
+    --sidebar-background: 215 24% 7%;
+    --sidebar-foreground: 212 33% 93%;
+    --sidebar-primary: 134 63% 52%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 215 19% 11%;
+    --sidebar-accent-foreground: 212 33% 93%;
+    --sidebar-border: 215 10% 27%;
+    --sidebar-ring: 213 93% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    font-size: 14px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(215, 24%, 7%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(215, 10%, 27%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(215, 10%, 37%);
+}
+
+::selection {
+  background: rgba(57, 211, 83, 0.3);
+  color: #e6edf3;
+}
+
+.font-pixel {
+  image-rendering: pixelated;
+}
+
+*:focus-visible {
+  outline: 2px solid hsl(213, 100%, 67%);
+  outline-offset: 2px;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+/* Animated grid background */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(57, 211, 83, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(57, 211, 83, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: gridShift 20s linear infinite;
+}
+
+@keyframes gridShift {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 40px 40px;
+  }
+}
+
+/* Shimmer for progress bars */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.progress-shimmer {
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+/* Enchantment sparkle glow */
+@keyframes sparkle {
+
+  0%,
+  100% {
+    text-shadow: 0 0 4px rgba(188, 140, 255, 0.4);
+  }
+
+  50% {
+    text-shadow: 0 0 12px rgba(188, 140, 255, 0.8), 0 0 20px rgba(188, 140, 255, 0.3);
+  }
+}
+
+.enchant-sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+/* Dependency tree connector lines */
+.tree-connector {
+  position: relative;
+}
+
+.tree-connector::before {
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: 0;
+  bottom: 8px;
+  width: 2px;
+  border-left: 2px dashed hsl(var(--border));
+  opacity: 0.4;
+}
+
+/* ═══ OVERLAYS ═══ */
+.grid-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(0, 255, 136, .025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 136, .025) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.scan {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: -10%;
+  height: 50px;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(transparent, rgba(0, 255, 136, .03), transparent);
+  animation: scanMove 9s linear infinite;
+}
+
+@keyframes scanMove {
+  to {
+    top: 110%;
+  }
+}
+
+.vig {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 35%, rgba(0, 0, 0, .88) 100%);
+}
+
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  opacity: .028;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E") 0 0/180px 180px;
+}
+
+/* ─── TITLE AREA ─── */
+.title-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.halo {
+  position: absolute;
+  width: 720px;
+  height: 200px;
+  background: radial-gradient(ellipse at center, rgba(0, 255, 136, .18) 0%, rgba(0, 255, 136, .06) 40%, transparent 70%);
+  filter: blur(28px);
+  pointer-events: none;
+  animation: haloBreath 3s ease-in-out infinite;
+}
+
+@keyframes haloBreath {
+
+  0%,
+  100% {
+    opacity: .7;
+    transform: scaleX(1)
+  }
+
+  50% {
+    opacity: 1;
+    transform: scaleX(1.09)
+  }
+}
+
+.lt {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-24px) scale(.65);
+}
+
+.lt.on {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity .12s ease, transform .2s cubic-bezier(.34, 1.56, .64, 1);
+  text-shadow:
+    0 0 28px rgba(0, 255, 136, .85),
+    0 0 55px rgba(0, 255, 136, .4),
+    0 0 90px rgba(0, 255, 136, .15);
+  animation: ltGlitch 7s 2s infinite;
+}
+
+@keyframes ltGlitch {
+
+  0%,
+  93%,
+  100% {
+    color: rgba(57, 211, 83, 1);
+    text-shadow: 0 0 28px rgba(0, 255, 136, .85), 0 0 55px rgba(0, 255, 136, .4), 0 0 90px rgba(0, 255, 136, .15);
+  }
+
+  94% {
+    color: #fff;
+    text-shadow: 0 0 8px #fff, 0 0 20px rgba(57, 211, 83, 1);
+  }
+
+  95% {
+    color: rgba(57, 211, 83, 1);
+  }
+
+  96% {
+    color: #fff;
+    text-shadow: 3px 0 8px #ff0066, 0 0 20px rgba(57, 211, 83, 1);
+  }
+
+  97% {
+    color: rgba(57, 211, 83, 1);
+  }
+}
+
+#tcur {
+  animation: blink .55s infinite;
+  margin-left: 3px;
+}
+
+#tcur.hide {
+  display: none;
+}
+
+.shimmer-sweep {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 30%, rgba(0, 255, 136, .22) 50%, transparent 70%);
+  background-size: 300% 100%;
+  opacity: 0;
+  animation: shimSweep 4.5s 5s ease-in-out infinite;
+}
+
+@keyframes shimSweep {
+  0% {
+    opacity: 0;
+    background-position: 130% 0
+  }
+
+  20% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0;
+    background-position: -30% 0
+  }
+}
+
+.feature-box {
+  transition: transform .3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow .3s, background .3s, border-color .3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-8px) scale(1.03);
+  background: rgba(0, 255, 136, .08);
+  border-color: rgba(57, 211, 83, 1) !important;
+  box-shadow: 0 22px 60px rgba(0, 255, 136, .25), 0 0 20px rgba(0, 255, 136, .1);
+}
+
+.feature-box:hover .text-3xl {
+  transform: scale(1.1);
+  transition: transform .2s ease-in-out;
+}
+
+.block-visual {
+  position: fixed;
+  width: 32px;
+  /* Increased from 28px */
+  height: 32px;
+  background: hsl(var(--craft-green));
+  box-shadow:
+    0 0 25px hsl(var(--craft-green)),
+    0 0 50px rgba(0, 255, 136, 0.7),
+    inset 4px 4px 0 rgba(255, 255, 255, 0.4),
+    inset -4px -4px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+  z-index: 10000;
+  transform: translate(-50%, -50%) scale(0.2) rotate(15deg);
+  animation: blockPop 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+}
+
+@keyframes blockPop {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.1) rotate(0deg);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.3) rotate(20deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) rotate(10deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.1) rotate(5deg) translateY(-20px);
+  }
+}
