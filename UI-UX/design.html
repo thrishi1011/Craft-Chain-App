@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftChain | Plan. Collaborate. Craft Smarter.</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap');
+
+        :root {
+            --green: #00ff88;
+            --green-glow: rgba(0, 255, 136, 0.45);
+            --dark: #030a06;
+            --border: rgba(0, 255, 136, 0.14);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background: var(--dark);
+            color: #e0ffe8;
+            font-family: 'Share Tech Mono', monospace;
+            overflow: hidden;
+        }
+
+        /* ═══ CANVAS ═══ */
+        #bg {
+            position: fixed;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        /* ═══ OVERLAYS ═══ */
+        .grid {
+            position: fixed;
+            inset: 0;
+            z-index: 1;
+            pointer-events: none;
+            background-image:
+                linear-gradient(rgba(0, 255, 136, .025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 136, .025) 1px, transparent 1px);
+            background-size: 64px 64px;
+        }
+
+        .scan {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: -10%;
+            height: 50px;
+            z-index: 2;
+            pointer-events: none;
+            background: linear-gradient(transparent, rgba(0, 255, 136, .03), transparent);
+            animation: scanMove 9s linear infinite;
+        }
+
+        @keyframes scanMove {
+            to {
+                top: 110%;
+            }
+        }
+
+        .vig {
+            position: fixed;
+            inset: 0;
+            z-index: 2;
+            pointer-events: none;
+            background: radial-gradient(ellipse at center, transparent 35%, rgba(0, 0, 0, .88) 100%);
+        }
+
+        .grain {
+            position: fixed;
+            inset: 0;
+            z-index: 3;
+            pointer-events: none;
+            opacity: .028;
+            background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E") 0 0/180px 180px;
+        }
+
+        /* ═══ LAYOUT ═══ */
+        .page {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* ─── NAV ─── */
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 60px;
+            border-bottom: 1px solid var(--border);
+            backdrop-filter: blur(12px);
+            background: rgba(3, 10, 6, .55);
+        }
+
+        .nav-logo {
+            font-family: 'VT323', monospace;
+            font-size: 24px;
+            letter-spacing: 5px;
+            color: var(--green);
+            text-shadow: 0 0 18px var(--green-glow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 38px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 10px;
+            letter-spacing: 3px;
+            color: rgba(255, 255, 255, .35);
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: color .3s, text-shadow .3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--green);
+            text-shadow: 0 0 12px var(--green-glow);
+        }
+
+        /* ─── HERO ─── */
+        .hero {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 40px;
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Status badge */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0, 255, 136, .05);
+            border: 1px solid rgba(0, 255, 136, .18);
+            padding: 7px 20px;
+            font-size: 9px;
+            letter-spacing: 5px;
+            color: var(--green);
+            text-transform: uppercase;
+            margin-bottom: 44px;
+            opacity: 0;
+            animation: fadeUp .7s .3s ease forwards;
+        }
+
+        .bdot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--green);
+            animation: blink 1.6s ease-in-out infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1
+            }
+
+            50% {
+                opacity: .15
+            }
+        }
+
+        /* ─── TITLE AREA ─── */
+        .title-wrap {
+            position: relative;
+            margin-bottom: 28px;
+            min-height: 155px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            animation: fadeIn .3s .8s ease forwards;
+        }
+
+        /* Breathing halo */
+        .halo {
+            position: absolute;
+            width: 720px;
+            height: 200px;
+            background: radial-gradient(ellipse at center, rgba(0, 255, 136, .18) 0%, rgba(0, 255, 136, .06) 40%, transparent 70%);
+            filter: blur(28px);
+            pointer-events: none;
+            animation: haloBreath 3s ease-in-out infinite;
+        }
+
+        @keyframes haloBreath {
+
+            0%,
+            100% {
+                opacity: .7;
+                transform: scaleX(1)
+            }
+
+            50% {
+                opacity: 1;
+                transform: scaleX(1.09)
+            }
+        }
+
+        /* Title row */
+        #title {
+            font-family: 'VT323', monospace;
+            font-size: clamp(68px, 12vw, 136px);
+            line-height: 1;
+            letter-spacing: 10px;
+            color: var(--green);
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Per-letter spans — hidden until revealed */
+        .lt {
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(-24px) scale(.65);
+        }
+
+        .lt.on {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            transition: opacity .12s ease, transform .2s cubic-bezier(.34, 1.56, .64, 1);
+            text-shadow:
+                0 0 28px rgba(0, 255, 136, .85),
+                0 0 55px rgba(0, 255, 136, .4),
+                0 0 90px rgba(0, 255, 136, .15);
+            animation: ltGlitch 7s 2s infinite;
+        }
+
+        @keyframes ltGlitch {
+
+            0%,
+            93%,
+            100% {
+                color: var(--green);
+                text-shadow: 0 0 28px rgba(0, 255, 136, .85), 0 0 55px rgba(0, 255, 136, .4), 0 0 90px rgba(0, 255, 136, .15);
+            }
+
+            94% {
+                color: #fff;
+                text-shadow: 0 0 8px #fff, 0 0 20px var(--green);
+            }
+
+            95% {
+                color: var(--green);
+            }
+
+            96% {
+                color: #fff;
+                text-shadow: 3px 0 8px #ff0066, 0 0 20px var(--green);
+            }
+
+            97% {
+                color: var(--green);
+            }
+        }
+
+        /* Blinking cursor after title */
+        #tcur {
+            font-family: 'VT323', monospace;
+            font-size: clamp(68px, 12vw, 136px);
+            color: var(--green);
+            line-height: 1;
+            animation: blink .55s infinite;
+            margin-left: 3px;
+        }
+
+        #tcur.hide {
+            display: none;
+        }
+
+        /* Shimmer sweep across title */
+        .shimmer {
+            position: absolute;
+            inset: 0;
+            z-index: 2;
+            pointer-events: none;
+            background: linear-gradient(105deg, transparent 30%, rgba(0, 255, 136, .22) 50%, transparent 70%);
+            background-size: 300% 100%;
+            opacity: 0;
+            animation: shimSweep 4.5s 5s ease-in-out infinite;
+        }
+
+        @keyframes shimSweep {
+            0% {
+                opacity: 0;
+                background-position: 130% 0
+            }
+
+            20% {
+                opacity: 1
+            }
+
+            80% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0;
+                background-position: -30% 0
+            }
+        }
+
+        /* ─── SUBTITLE ─── */
+        .sub {
+            font-family: 'VT323', monospace;
+            font-size: clamp(13px, 1.8vw, 19px);
+            letter-spacing: 12px;
+            color: rgba(255, 255, 255, .32);
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            opacity: 0;
+        }
+
+        /* ─── BUTTONS ─── */
+        .btns {
+            display: flex;
+            gap: 20px;
+            opacity: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn-p {
+            position: relative;
+            font-family: 'VT323', monospace;
+            font-size: 22px;
+            letter-spacing: 4px;
+            color: #000;
+            background: var(--green);
+            border: none;
+            padding: 18px 52px;
+            text-decoration: none;
+            text-transform: uppercase;
+            clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+            overflow: hidden;
+            transition: transform .22s, box-shadow .3s;
+        }
+
+        .btn-p::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, transparent 30%, rgba(255, 255, 255, .28) 50%, transparent 70%);
+            transform: translateX(-110%);
+            transition: transform .5s;
+        }
+
+        .btn-p:hover::before {
+            transform: translateX(110%);
+        }
+
+        .btn-p:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 22px 60px rgba(0, 255, 136, .55), 0 0 0 1px var(--green);
+        }
+
+        .btn-s {
+            font-family: 'VT323', monospace;
+            font-size: 22px;
+            letter-spacing: 4px;
+            color: var(--green);
+            background: transparent;
+            border: 1px solid rgba(0, 255, 136, .38);
+            padding: 18px 52px;
+            text-decoration: none;
+            text-transform: uppercase;
+            clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+            transition: transform .22s, box-shadow .3s, background .3s, border-color .3s;
+        }
+
+        .btn-s:hover {
+            transform: translateY(-4px);
+            background: rgba(0, 255, 136, .07);
+            border-color: var(--green);
+            box-shadow: 0 22px 60px rgba(0, 255, 136, .22);
+        }
+
+        /* ─── PILLS ─── */
+        .pills {
+            display: flex;
+            gap: 14px;
+            margin-top: 50px;
+            opacity: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .pill {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0, 255, 136, .04);
+            border: 1px solid rgba(0, 255, 136, .12);
+            padding: 9px 20px;
+            font-size: 10px;
+            letter-spacing: 3px;
+            color: rgba(255, 255, 255, .32);
+            text-transform: uppercase;
+            transition: background .3s, border-color .3s, color .3s;
+        }
+
+        .pill:hover {
+            background: rgba(0, 255, 136, .08);
+            border-color: rgba(0, 255, 136, .35);
+            color: var(--green);
+        }
+
+        /* ─── KEYFRAMES ─── */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(28px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* ─── FOOTER ─── */
+        .foot {
+            width: 100%;
+            border-top: 1px solid var(--border);
+            padding: 14px 60px;
+            display: flex;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            background: rgba(3, 10, 6, .55);
+        }
+
+        .foot p {
+            font-size: 9px;
+            letter-spacing: 2px;
+            color: rgba(255, 255, 255, .14);
+            text-transform: uppercase;
+        }
+
+        @media(max-width:700px) {
+            nav {
+                padding: 18px 20px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                padding: 0 20px;
+            }
+        }
+
+        /* ═══ BLOCK VISUAL EFFECT — appears with each letter sound ═══ */
+        .block-visual {
+            position: fixed;
+            width: 28px;
+            height: 28px;
+            background: var(--green);
+            box-shadow: 0 0 20px var(--green), 0 0 40px rgba(0, 255, 136, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            pointer-events: none;
+            z-index: 9999;
+            transform: translate(-50%, -50%) scale(0.2) rotate(15deg);
+            animation: blockPop 0.3s ease-out forwards;
+            clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 4px 100%, 0 calc(100% - 4px));
+        }
+
+        @keyframes blockPop {
+            0% {
+                opacity: 0.9;
+                transform: translate(-50%, -50%) scale(0.2) rotate(0deg);
+            }
+
+            40% {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1.1) rotate(15deg);
+            }
+
+            80% {
+                opacity: 0.7;
+                transform: translate(-50%, -50%) scale(1) rotate(10deg);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translate(-50%, -50%) scale(0.8) rotate(5deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grain"></div>
+    <canvas id="bg"></canvas>
+    <div class="grid"></div>
+    <div class="scan"></div>
+    <div class="vig"></div>
+
+    <!-- Overlay for block visuals (fixed, no interaction) -->
+    <div id="block-overlay"
+        style="position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:9999;"></div>
+
+    <div class="page">
+
+        <nav>
+            <div class="nav-logo">⛏ CRAFTCHAIN</div>
+            <ul class="nav-links">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">How it Works</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+
+            <div class="badge"><span class="bdot"></span>Now Live · Open Beta</div>
+
+            <div class="title-wrap">
+                <div class="halo"></div>
+                <h1 id="title"></h1>
+                <span id="tcur">|</span>
+                <div class="shimmer"></div>
+            </div>
+
+            <p class="sub" id="sub">Plan &nbsp;·&nbsp; Collaborate &nbsp;·&nbsp; Craft Smarter</p>
+
+            <div class="btns" id="btns">
+                <a href="#" class="btn-p">⛏ Start Crafting</a>
+                <a href="#" class="btn-s">Join a Project</a>
+            </div>
+
+            <div class="pills" id="pills">
+                <div class="pill">📦 Track Dependencies</div>
+                <div class="pill">👥 Real-time Collab</div>
+                <div class="pill">⚡ Spot Blockers</div>
+            </div>
+
+        </section>
+
+        <div class="foot">
+            <p>© 2025 CraftChain · All rights reserved</p>
+        </div>
+
+    </div>
+
+    <script>
+        /* ═══════════════════════════════════════════════════════
+           BLOCK SOUND ENGINE + VISUAL BLOCKS (per letter)
+        ═══════════════════════════════════════════════════════ */
+
+        let ac = null;
+
+        function getAC() {
+            if (!ac) ac = new (window.AudioContext || window.webkitAudioContext)();
+            return ac;
+        }
+
+        function playBlock() {
+            const a = getAC();
+            // If suspended, try to resume (will only work after user gesture)
+            if (a.state === 'suspended') {
+                a.resume().then(() => {
+                    // After resume, schedule sound with updated currentTime
+                    scheduleSound(a.currentTime);
+                }).catch(() => { }); // ignore if resume fails
+            } else {
+                scheduleSound(a.currentTime);
+            }
+        }
+
+        function scheduleSound(now) {
+            const a = getAC();
+            // Square-wave thud (more present volume)
+            const osc = a.createOscillator();
+            const gain = a.createGain();
+            const filt = a.createBiquadFilter();
+            osc.type = 'square';
+            osc.frequency.setValueAtTime(220, now);
+            osc.frequency.exponentialRampToValueAtTime(52, now + 0.09);
+            filt.type = 'lowpass';
+            filt.frequency.setValueAtTime(420, now);
+            gain.gain.setValueAtTime(0.3, now);               // increased volume
+            gain.gain.exponentialRampToValueAtTime(0.001, now + 0.14);
+            osc.connect(filt); filt.connect(gain); gain.connect(a.destination);
+            osc.start(now); osc.stop(now + 0.15);
+
+            // Noise crunch burst (slightly louder)
+            const len = Math.floor(a.sampleRate * 0.06);
+            const buf = a.createBuffer(1, len, a.sampleRate);
+            const d = buf.getChannelData(0);
+            for (let i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * 0.25; // louder noise
+            const src = a.createBufferSource(); src.buffer = buf;
+            const ng = a.createGain();
+            ng.gain.setValueAtTime(0.22, now);                // increased volume
+            ng.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
+            const nf = a.createBiquadFilter();
+            nf.type = 'bandpass'; nf.frequency.value = 300; nf.Q.value = 0.8;
+            src.connect(nf); nf.connect(ng); ng.connect(a.destination);
+            src.start(now); src.stop(now + 0.07);
+        }
+
+        /* Unlock on first user gesture */
+        let audioUnlocked = false;
+        function unlockAudio() {
+            if (audioUnlocked) return;
+            audioUnlocked = true;
+            const a = getAC();
+            if (a.state === 'suspended') {
+                a.resume().then(() => { });
+            }
+        }
+        ['click', 'keydown', 'touchstart', 'mousedown'].forEach(ev =>
+            document.addEventListener(ev, unlockAudio, { once: false })
+        );
+
+        /* ═══ VISUAL BLOCK per letter ═══ */
+        const overlay = document.getElementById('block-overlay');
+
+        function spawnBlockAtSpan(span) {
+            if (!span) return;
+            const rect = span.getBoundingClientRect();
+            if (rect.width === 0) return; // not visible yet
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+
+            const block = document.createElement('div');
+            block.className = 'block-visual';
+            block.style.left = centerX + 'px';
+            block.style.top = centerY + 'px';
+            // slight random rotation offset for variety
+            const rot = (Math.random() * 30 - 15).toFixed(1);
+            block.style.transform = `translate(-50%, -50%) scale(0.2) rotate(${rot}deg)`;
+            overlay.appendChild(block);
+
+            // remove after animation completes
+            setTimeout(() => {
+                if (block.parentNode) block.remove();
+            }, 300);
+        }
+
+        /* ═══════════════════════════════════════════════════════
+           TYPEWRITER — letter-by-letter with block sound + visual
+        ═══════════════════════════════════════════════════════ */
+        const titleEl = document.getElementById('title');
+        const curEl = document.getElementById('tcur');
+        const subEl = document.getElementById('sub');
+        const btnsEl = document.getElementById('btns');
+        const pillsEl = document.getElementById('pills');
+        const WORD = 'CRAFTCHAIN';
+        const DELAY = 980;   // ms before first letter
+        const SPEED = 170;   // ms between letters
+
+        // Build invisible letter spans
+        WORD.split('').forEach(ch => {
+            const sp = document.createElement('span');
+            sp.className = 'lt';
+            sp.textContent = ch;
+            titleEl.appendChild(sp);
+        });
+
+        const spans = titleEl.querySelectorAll('.lt');
+
+        function revealLetter(i) {
+            if (i >= spans.length) {
+                // All letters placed
+                setTimeout(() => {
+                    curEl.classList.add('hide');
+                    subEl.style.animation = 'fadeUp .7s ease forwards';
+                    btnsEl.style.animation = 'fadeUp .7s .18s ease forwards';
+                    pillsEl.style.animation = 'fadeUp .7s .4s ease forwards';
+                }, 280);
+                return;
+            }
+
+            // Play sound & show letter
+            playBlock();
+            spans[i].classList.add('on');
+
+            // Spawn a little block at the letter's position (visible feedback)
+            spawnBlockAtSpan(spans[i]);
+
+            setTimeout(() => revealLetter(i + 1), SPEED);
+        }
+
+        // Kick off after delay
+        setTimeout(() => revealLetter(0), DELAY);
+
+
+        /* ═══════════════════════════════════════════════════════
+           3D CANVAS BACKGROUND (unchanged, just included)
+        ═══════════════════════════════════════════════════════ */
+        const cv = document.getElementById('bg');
+        const ctx = cv.getContext('2d');
+        let W, H, mx = 0, my = 0;
+        const resize = () => { W = cv.width = innerWidth; H = cv.height = innerHeight; };
+        resize();
+        window.addEventListener('resize', resize);
+        window.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+
+        // 3-D math helpers
+        const rX = (pts, a) => { const c = Math.cos(a), s = Math.sin(a); return pts.map(([x, y, z]) => [x, y * c - z * s, y * s + z * c]); };
+        const rY = (pts, a) => { const c = Math.cos(a), s = Math.sin(a); return pts.map(([x, y, z]) => [x * c + z * s, y, -x * s + z * c]); };
+        const rZ = (pts, a) => { const c = Math.cos(a), s = Math.sin(a); return pts.map(([x, y, z]) => [x * c - y * s, x * s + y * c, z]); };
+        const pr = (x, y, z, fov = 420) => { const d = z + fov; return d > 0 ? { x: W / 2 + x * (fov / d), y: H / 2 + y * (fov / d) } : null; };
+
+        const EDGES = [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]];
+        const verts = s => { const h = s / 2; return [[-h, -h, -h], [h, -h, -h], [h, h, -h], [-h, h, -h], [-h, -h, h], [h, -h, h], [h, h, h], [-h, h, h]]; };
+
+        // Wireframe cubes
+        const CUBES = Array.from({ length: 20 }, () => ({
+            x: (Math.random() - .5) * innerWidth * 2, y: (Math.random() - .5) * innerHeight * 2,
+            z: Math.random() * 700 + 100,
+            vx: (Math.random() - .5) * .28, vy: (Math.random() - .5) * .28, vz: (Math.random() - .5) * .18,
+            sz: Math.random() * 55 + 18,
+            rx: Math.random() * Math.PI * 2, ry: Math.random() * Math.PI * 2, rz: Math.random() * Math.PI * 2,
+            drx: (Math.random() - .5) * .009, dry: (Math.random() - .5) * .009, drz: (Math.random() - .5) * .005,
+            a: Math.random() * .27 + .04,
+        }));
+
+        // Particles
+        const PARTS = Array.from({ length: 130 }, () => ({
+            x: Math.random() * innerWidth, y: Math.random() * innerHeight,
+            vx: (Math.random() - .5) * .38, vy: (Math.random() - .5) * .38,
+            r: Math.random() * 1.8 + .4, a: Math.random() * .45 + .08,
+        }));
+
+        // Floating symbols
+        const SYM = ['⛏', '◆', '▲', '✦', '⬡', '⬟', '●'];
+        const FLOAT = Array.from({ length: 10 }, () => ({
+            x: Math.random() * innerWidth, y: Math.random() * innerHeight,
+            vx: (Math.random() - .5) * .22, vy: (Math.random() - .5) * .22,
+            sym: SYM[~~(Math.random() * SYM.length)],
+            sz: Math.random() * 20 + 10, a: Math.random() * .09 + .025,
+            rot: Math.random() * Math.PI * 2, dr: (Math.random() - .5) * .009,
+        }));
+
+        // Pulsing rings
+        const RINGS = Array.from({ length: 5 }, () => ({
+            x: Math.random() * innerWidth, y: Math.random() * innerHeight,
+            r: Math.random() * 180 + 70, a: Math.random() * .055 + .015,
+            ph: Math.random() * Math.PI * 2, sp: Math.random() * .004 + .001,
+        }));
+
+        function drawCube(c) {
+            let pts = verts(c.sz);
+            const mdx = (mx - W / 2) * .00018, mdy = (my - H / 2) * .00018;
+            pts = rX(pts, c.rx + mdy);
+            pts = rY(pts, c.ry + mdx);
+            pts = rZ(pts, c.rz);
+            const pj = pts.map(([x, y, z]) => pr(x + c.x - W / 2, y + c.y - H / 2, z));
+            if (pj.some(p => !p)) return;
+            ctx.strokeStyle = `rgba(0,255,136,${c.a})`;
+            ctx.lineWidth = .65;
+            ctx.shadowBlur = 7;
+            ctx.shadowColor = `rgba(0,255,136,${c.a * .9})`;
+            EDGES.forEach(([a, b]) => {
+                if (!pj[a] || !pj[b]) return;
+                ctx.beginPath(); ctx.moveTo(pj[a].x, pj[a].y); ctx.lineTo(pj[b].x, pj[b].y); ctx.stroke();
+            });
+            ctx.shadowBlur = 0;
+        }
+
+        (function frame() {
+            ctx.clearRect(0, 0, W, H);
+
+            // Rings
+            RINGS.forEach(r => {
+                r.ph += r.sp;
+                const p = (Math.sin(r.ph) + 1) / 2;
+                ctx.beginPath(); ctx.arc(r.x, r.y, r.r, 0, Math.PI * 2);
+                ctx.strokeStyle = `rgba(0,255,136,${r.a * p})`; ctx.lineWidth = .5; ctx.stroke();
+                ctx.beginPath(); ctx.arc(r.x, r.y, r.r * .55, 0, Math.PI * 2);
+                ctx.strokeStyle = `rgba(0,255,136,${r.a * p * .45})`; ctx.stroke();
+            });
+
+            // Particles
+            PARTS.forEach(p => {
+                p.x += p.vx; p.y += p.vy;
+                if (p.x < 0) p.x = W; if (p.x > W) p.x = 0;
+                if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+                ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(0,255,136,${p.a})`; ctx.fill();
+            });
+
+            // Particle connections
+            for (let i = 0; i < PARTS.length; i++)
+                for (let j = i + 1; j < PARTS.length; j++) {
+                    const dx = PARTS[i].x - PARTS[j].x, dy = PARTS[i].y - PARTS[j].y, d = Math.hypot(dx, dy);
+                    if (d < 95) {
+                        ctx.beginPath(); ctx.moveTo(PARTS[i].x, PARTS[i].y); ctx.lineTo(PARTS[j].x, PARTS[j].y);
+                        ctx.strokeStyle = `rgba(0,255,136,${.055 * (1 - d / 95)})`; ctx.lineWidth = .35; ctx.stroke();
+                    }
+                }
+
+            // Cubes
+            CUBES.forEach(c => {
+                c.x += c.vx; c.y += c.vy; c.z += c.vz;
+                c.rx += c.drx; c.ry += c.dry; c.rz += c.drz;
+                if (c.x < -W) c.x = W; if (c.x > W) c.x = -W;
+                if (c.y < -H) c.y = H; if (c.y > H) c.y = -H;
+                if (c.z < 50) c.z = 750; if (c.z > 800) c.z = 80;
+                drawCube(c);
+            });
+
+            // Floaters
+            FLOAT.forEach(f => {
+                f.x += f.vx; f.y += f.vy; f.rot += f.dr;
+                if (f.x < -60) f.x = W + 60; if (f.x > W + 60) f.x = -60;
+                if (f.y < -60) f.y = H + 60; if (f.y > H + 60) f.y = -60;
+                ctx.save(); ctx.translate(f.x, f.y); ctx.rotate(f.rot);
+                ctx.font = `${f.sz}px serif`;
+                ctx.fillStyle = `rgba(0,255,136,${f.a})`;
+                ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+                ctx.fillText(f.sym, 0, 0); ctx.restore();
+            });
+
+            // Mouse glow
+            const g = ctx.createRadialGradient(mx, my, 0, mx, my, 220);
+            g.addColorStop(0, 'rgba(0,255,136,.045)');
+            g.addColorStop(1, 'rgba(0,255,136,0)');
+            ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+
+            requestAnimationFrame(frame);
+        })();
+    </script>
+</body>
+
+</html>
