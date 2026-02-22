@@ -53,6 +53,23 @@ CraftChain is a premium crafting management platform for Minecraft players. It s
 
 ---
 
+## 🚀 Project ScreenShots
+
+### Home Page
+![Home Page](./public/home.png)
+
+### Login Page
+![Login Page](./public/login.png)
+
+### DashBoard
+![dashboard](./public/dashboard.png)
+
+### Create Project
+![create project](./public/project.png)
+
+### Project Progress
+![project progress](./public/progress.png)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -99,4 +116,5 @@ CraftChain is a premium crafting management platform for Minecraft players. It s
 
 ## 📄 License
 MIT © 2025 · **CraftChain Team** · Built for *Noobathon VI*
+
 
